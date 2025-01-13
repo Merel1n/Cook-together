@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+ font-weight: 500;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.menu {
+  /* width: 100vb; */
+  height: 30px;
+  background: linear-gradient(#fff, #fff, #fff, red);
+  position: fixed;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.logo{
+  margin-right: 40px;
+}
+
+.menuList{
+  display: flex;
+  gap: 10px;
+}
